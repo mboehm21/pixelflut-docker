@@ -4,7 +4,7 @@ number=$(shuf -i 2000-65000 -n 1)
 
 name="igrabber"$number
 
-docker run -it --rm \
+docker run -d --rm \
 --name $name \
 --hostname $name \
 -e GRAB_KEYWORD='test images' \
