@@ -62,7 +62,7 @@ chown www-data:www-data /tmp/media-in
 
 ## Spawn clients
 
-In the last step you can start as many clients as you want (and as your system can handle) to spam images to the pixelflut server. If you changed anything like the server-address, port or images-folder in one of the steps before, you'll have to do that here as well. The default-setting is that the offset of each image is random. You can also hardcode the `PXFLUT_X`- and `PXFLUT_Y`-coordinates using the environment-variables in the run-script. If you have large images or gives you might also want to tweak the `PXFLUT_TIMEOUT` as complex images need more time to show up.
+In the last step you can start as many clients as you want (and as your system can handle) to spam images to the pixelflut server. If you changed anything like the server-address, port or images-folder in one of the steps before, you'll have to do that here as well. The default-setting is that the offset of each image is random. You can also hardcode the `PXFLUT_X`- and `PXFLUT_Y`-coordinates using the environment-variables in the run-script. If you have large images or GIF-animations you might also want to tweak the `PXFLUT_TIMEOUT` as complex images need more time to show up.
 
 ```
 /var/pixelflut-docker/sturmflut-client/sturmflut-client-run.sh
