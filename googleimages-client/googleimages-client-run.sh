@@ -2,7 +2,7 @@
 
 number=$(shuf -i 2000-65000 -n 1)
 
-name="igrabber"$number
+name="googleimages-client"$number
 
 docker run -d --rm \
 --name $name \
