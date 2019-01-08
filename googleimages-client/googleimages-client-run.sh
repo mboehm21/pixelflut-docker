@@ -7,7 +7,7 @@ name="googleimages-client"$number
 docker run -d --rm \
 --name $name \
 --hostname $name \
--e GRAB_KEYWORD='test images' \
+-e GRAB_KEYWORD='rainbow' \
 -e GRAB_DIR='/var/media-in' \
 -e GRAB_COUNT='50' \
 -e GRAB_SIZE='medium' \

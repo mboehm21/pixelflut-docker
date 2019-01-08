@@ -7,7 +7,7 @@ docker run -d --rm \
 --net pixels \
 -p 1000:1337 \
 -e DISPLAY=$DISPLAY \
--e PXFLUT_PARAMS="--window" \
+-e PXFLUT_PARAMS="--hide_text" \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 --privileged \
 pxflut_srv:latest
