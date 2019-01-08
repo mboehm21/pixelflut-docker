@@ -20,7 +20,7 @@ if(!defined $consumer_key || !defined $consumer_secret || !defined $access_token
 my $string_gen = String::Random->new;
 my $pic_name = $string_gen->randregex('\d\d\d\d\d\d\d\d\d\d\d\d');
 
-$pic_name = $pic_name.'.png';
+$pic_name = $pic_name.'.jpg';
 
 `cd /tmp && scrot $pic_name`;
 

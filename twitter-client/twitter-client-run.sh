@@ -5,7 +5,7 @@ number=$(shuf -i 2000-65000 -n 1)
 
 name="twitter-client"$number
 
-docker run -d --rm \
+docker run -it --rm \
 --name $name \
 --hostname $name \
 -e TWITTER_CONSUMER_KEY \
